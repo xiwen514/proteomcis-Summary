@@ -1,4 +1,4 @@
-# proteomcis-Summary
+# proteomics-Summary
 
 ### upstream data anaysis
 1. Maxquant
