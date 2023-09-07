@@ -2,6 +2,9 @@
 
 ### upstream data anaysis
 #### Maxquant
+##### Website： https://www.maxquant.org/
+##### Help： https://groups.google.com/g/maxquant-list
+
 1.  mqpar.xml: generated from maxquant, which is only applicable for the analysis of one sample.
 2.  01_xml_edit_script.sh:
 if you have lots of samples for maxquant to run, you need to generate a new mqpar.xml. This script primarily edits XML files, adding all sample information to the final xml file.
