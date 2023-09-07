@@ -38,6 +38,17 @@ Run maxquant!
 
 #### nfcore
 
+```
+/home/xiwenz/software/nextflow run nf-core/proteomicslfq \
+ --input '/home/xiwenz/project/nfcore_proteomicslfq_test/rawdata1/*.raw' \
+ --database '/home/xiwenz/project/nfcore_proteomicslfq_test/fasta/*.fasta'\
+ -profile docker \
+ --max_memory 600.GB \
+ --max_cpus 120 \
+ --expdesign 'expdesign.tsv' \
+ --add_decoys \
+ -resume
+```
 ### downstream data analysis
 1. PCA
 2. differential expression analysis
