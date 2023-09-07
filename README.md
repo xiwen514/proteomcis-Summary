@@ -37,7 +37,10 @@ if you run the 01_xml_edit_script.sh script, you will get 42.xml! 1.xml is the m
 Run maxquant!
 
 #### nfcore
-
+Help about expdesign: 
+- https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/classOpenMS_1_1ExperimentalDesign.html
+- https://github.com/nf-core/proteomicslfq/issues/105
+  
 ```
 /home/xiwenz/software/nextflow run nf-core/proteomicslfq \
  --input '/home/xiwenz/project/nfcore_proteomicslfq_test/rawdata1/*.raw' \
